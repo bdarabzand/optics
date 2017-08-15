@@ -7,7 +7,6 @@ body{
     width: 100%;
     margin: auto;
     font-family:  Helvetica ,Arial, sans-serif;
-    border: 1px solid red;
 }
 
 /* header section */
@@ -28,6 +27,7 @@ nav{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .navbar{
@@ -37,7 +37,6 @@ nav{
     height: 3rem;
     background-color: cadetblue;
     color: white;
-    border: 1px solid red;
     justify-content: space-between;
 }
 
@@ -68,7 +67,7 @@ li{
 
 /* headline section */
 
-.container{
+.container01{
     display: flex;
     flex-direction: row;
     border: 1px solid red;
@@ -91,4 +90,106 @@ li{
     font-size: 2rem;
     font-weight: bold;
     padding: 1.5rem 5rem;
+}
+
+/* main section */
+
+main{
+    width: 100%;
+    margin: auto;
+    background-color: azure;
+}
+
+.optics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* icon section */
+
+.container02{
+    width: 800px;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.holder{
+    width: 100%;
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+
+}
+
+/* text under icons */
+
+.container03{
+    width: 800px;
+    margin-top:0;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+.holder-text{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* subtitle blocks */
+
+.container04{
+    display: flex;
+    width: 800px;
+    margin-top:3rem;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+.block{
+   display: flex;
+   width: 800px;
+   justify-content: space-around;
+}
+
+.tilt{
+   display: flex;
+   padding: 0.5rem 1.25rem;
+   align-items: center;
+   background-color: cadetblue;
+   color: white;
+}
+
+.block h2{
+   font-size: 1.25rem;
+}
+
+/* text section */
+
+.container05{
+   display: flex;
+    width: 800px;
+    margin-top:3rem;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+.holdem{
+     display: flex;
+   width: 650px;
+   justify-content: space-around;
+}
+
+.text{
+    padding: 3rem 5rem;
+    display: flex;
+   padding: 0.5rem 1.25rem;
+   align-items: center;
 }
